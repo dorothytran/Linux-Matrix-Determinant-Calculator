@@ -11,10 +11,12 @@ M = a  b  c
 ```
 
 The application consists of one source file for execution that includes 2 test cases which will test the concurrent program with different intialized sets of data values to ensure functionality of the program:
+
 ```DET.c		(main C source file)```
 
 
 The application is supported by a single header file that contains delcarations:
+
 ```DET.h		(header file for DET.c)```
 
 
