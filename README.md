@@ -1,12 +1,4 @@
 # Linux-Concurrent-Matrix-Determinant-Calculator
-SYSC4001 A Assignment 1
-
-
-## CONTACT INFORMATION
-Name: Dorothy Tran 
-Student ID: 101141902
-E-mail: dorothy.tran@carleton.ca
-Date: November 1, 2021
 
 
 ## DESCRIPTION
