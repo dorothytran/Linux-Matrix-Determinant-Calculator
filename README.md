@@ -3,16 +3,16 @@
 
 ## DESCRIPTION
 This concurrent program developed uses Linux shared memory that creates three child processes from a parent process to compute the determinant of a given 3 x 3 input matrix of integers. The program will use Gaussian elimination for each row calculation and save the variables into shared memory which can be accessed by each process.
-Given a matrix M, where M = a  b  c
-			                d  e  f
-			                g  h  i
+Given a matrix M, where:
+M = a  b  c
+    d  e  f
+    g  h  i
 
 The application consists of one source file for execution that includes 2 test cases which will test the concurrent program with different intialized sets of data values to ensure functionality of the program:
 ```DET.c		(main C source file)```
 
 
 The application is supported by a single header file that contains delcarations:
-----------------------------------
 ```DET.h		(header file for DET.c)```
 
 
@@ -44,9 +44,10 @@ To test the various test cases provided in the DET.c source file, please comment
 
 ### Test Case 1
 The input matrix for Test Case 1 was provided:
-````10  5  9
-     3  15  4
-	  7  12  20
+````
+10  5  9
+3  15  4
+7  12  20
 ````
 
 #### Test Case 1: Output on the Terminal
@@ -73,9 +74,10 @@ After compiling the DET.c program, the expected results of a Matrix Determinant 
 
 ### Test Case 2
 The input matrix for Test Case 2 was provided:
-``` 50  75  90
-    24   9  14
-	  40  29  95
+``` 
+50  75  90
+24   9  14
+40  29  95
 ```
 
 ##### Test Case 2: Output on the Terminal
