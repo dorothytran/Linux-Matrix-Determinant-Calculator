@@ -4,7 +4,7 @@
 ## DESCRIPTION
 This concurrent program developed uses Linux shared memory that creates three child processes from a parent process to compute the determinant of a given 3 x 3 input matrix of integers. The program will use Gaussian elimination for each row calculation and save the variables into shared memory which can be accessed by each process.
 Given a matrix M, where:
-````
+```
 M = a  b  c
     d  e  f
     g  h  i
